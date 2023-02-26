@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "undercut"
+version = "0.1"
+authors = [{name="ofarrelle"}]
+description = "Cluster racing laps to differentiate racing from safety cars"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ofarrelle/undercut"
+"Bug Tracker" = "https://github.com/ofarrelle/undercut/issues"
